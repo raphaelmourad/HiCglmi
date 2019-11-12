@@ -1,0 +1,23 @@
+# Import
+import("methods")
+import("GenomicRanges")
+import("Matrix")
+import("glmnet")
+import("rtracklayer")
+import("HiTC")
+
+
+importFrom("stats", "as.formula", "binomial", "cor", "lm", "glm", "poisson", "quasipoisson", "logLik","pchisq")
+importFrom("utils", "read.table")
+importFrom("IRanges", "IRanges", "IRangesList", "breakInChunks","Views","RleViewsList","viewMeans")
+importFrom("S4Vectors","queryHits")
+importFrom("GenomeInfoDb", "seqlengths", "seqlevels", "seqlevels<-")
+importFrom("rtracklayer","import")
+importFrom("MASS", "glm.nb")
+importFrom("Matrix", "as.matrix", "Matrix")
+importFrom("glmnet", "cv.glmnet")
+importFrom("HiTC", "x_intervals", "intdata")
+
+
+# Export
+exportPattern("^[[:alpha:]]+")
